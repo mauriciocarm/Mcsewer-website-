@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MC Sewer and Drains LLC</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #1e3d59;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 1.5rem;
+    }
+
+    .call-button {
+      background: #ff6b35;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e3d59;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .image-gallery img {
+      max-width: 100%;
+      width: 280px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .caption {
+      text-align: center;
+      font-size: 0.95rem;
+      margin-top: 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MC Sewer and Drains LLC</h1>
+    <p>Reliable Drain Cleaning Services in the Mid Willamette Valley</p>
+    <a class="call-button" href="tel:5039791924">Call Now</a>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Drain Cleaning</li>
+      <li>Hydro Jetting</li>
+      <li>Sewer Line Repair</li>
+      <li>Camera Inspection</li>
+      <li>And More</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      With over nine years of hands-on experience in the industry, I specialize in delivering fast, reliable, and high-quality drain cleaning solutions. I take pride in providing exceptional service with a focus on efficiency, safety, and customer satisfaction.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Work</h2>
+    <div class="image-gallery">
+      <div>
+        <img src="jetter.jpg" alt="Jetting Equipment" />
+        <div class="caption">Jetting Equipment</div>
+      </div>
+      <div>
+        <img src="camera1.jpg" alt="Sewer Camera Inspection" />
+        <div class="caption">Sewer Camera Inspection</div>
+      </div>
+      <div>
+        <img src="camera2.jpg" alt="Line Inspection Setup" />
+        <div class="caption">Line Inspection Setup</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Phone: <a href="tel:5039791924">(503) 979-1924</a></p>
+    <p>Serving the Mid Willamette Valley and surrounding areas</p>
+  </section>
+
+  <footer>
+    &copy; 2025 MC Sewer and Drains LLC. All rights reserved.
+  </footer>
+
+</body>
+</html>
